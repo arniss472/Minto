@@ -1,0 +1,36 @@
+
+.clearfix {
+  clear: both;
+}
+.container {
+  width: 1020px;
+  margin: auto;
+}
+.main-header{
+  .main-navigation{
+    li{
+      display: inline-block;
+      font-size: 19px;
+      padding-left: 92px;
+      padding-top: 28px;
+    }
+  }
+  .main-logo{
+    float: left;
+    position: relative;
+  }
+  .m-logo{
+    color: #f3f3f4;
+    font-size: 29.16px;
+    position: absolute;
+    bottom: 30px;
+    left: 28px;
+
+  }
+  .text-logo{
+    font-size: 39px;
+    float: right;
+    padding-top: 16px;
+
+  }
+}
