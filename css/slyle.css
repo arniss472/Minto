@@ -32,3 +32,58 @@
   float: right;
   padding-top: 16px;
 }
+
+.slider {
+  position: relative;
+}
+
+.slider .slider-text {
+  width: 612px;
+  position: absolute;
+  top: 100px;
+  left: 220px;
+  text-align: center;
+}
+
+.slider .slider-text h1 {
+  font-size: 117px;
+}
+
+.slider .slider-text p {
+  font-size: 31px;
+}
+
+main .text-main {
+  height: 132px;
+}
+
+.content img {
+  float: left;
+}
+
+.content .text {
+  min-height: 380px;
+}
+
+.partners .partners-link {
+  width: 251px;
+  min-height: 70px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+footer {
+  min-height: 74.5px;
+}
+
+footer .copyright {
+  float: left;
+}
+
+footer .social {
+  float: right;
+}
+
+.background-grey {
+  background-color: #e5e5e5;
+}

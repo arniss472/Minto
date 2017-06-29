@@ -5,8 +5,10 @@
 .container {
   width: 1020px;
   margin: auto;
+
 }
 .main-header{
+  // навигация
   .main-navigation{
     li{
       display: inline-block;
@@ -15,6 +17,7 @@
       padding-top: 28px;
     }
   }
+  // лого
   .main-logo{
     float: left;
     position: relative;
@@ -33,4 +36,65 @@
     padding-top: 16px;
 
   }
+}
+
+.slider{
+  position: relative;
+  .slider-text{
+    width: 612px;
+    position: absolute;
+    top: 100px;
+    left: 220px;
+
+    text-align: center;
+    h1{
+      font-size: 117px;
+    }
+    p{
+      font-size: 31px;
+    }
+  }
+}
+
+main{
+  .text-main{
+    height: 132px;
+  }
+}
+
+.content{
+  img{
+    float: left;
+  }
+  .text{
+    min-height: 380px;
+  }
+}
+
+.partners{
+  .partners-link{
+    width: 251px;
+    min-height: 70px;
+    display: inline-block;
+    vertical-align: middle;
+  }
+  .part-lnk{
+    
+  }
+}
+
+footer{
+  min-height: 74.5px;
+
+
+  .copyright{
+    float: left;
+  }
+  .social{
+    float: right;
+  }
+}
+// фон подвала
+.background-grey{
+  background-color: #e5e5e5;
 }
