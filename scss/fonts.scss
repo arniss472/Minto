@@ -1,5 +1,10 @@
-$font-famaly-h1: StRydeRegular, sans-serif;
+$font-famaly-slider: StRydeRegular, sans-serif;
 
-h1{
-  font-family: $font-famaly-h1;
+.slider{
+  h1{
+    font-family: $font-famaly-slider;
+  }
+  p{
+    font-family: $font-famaly-slider;
+  }
 }
