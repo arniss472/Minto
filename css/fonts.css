@@ -1,7 +1,53 @@
+.main-header .main-logo span {
+  cursor: default;
+}
+
+.main-header .main-logo .m-logo {
+  font-size: 29px;
+  font-family: Amaranth Regular, sans-serif;
+}
+
+.main-header .main-logo .text-logo {
+  padding-left: 15px;
+  font-family: SamoSans Regular, sans-serif;
+  font-size: 39px;
+  color: #a292b3;
+}
+
+.main-navigation li {
+  font-family: Segoe UI Regular, sans-serif;
+}
+
+.main-navigation li a:link {
+  text-decoration: none;
+  color: #545454;
+}
+
+.main-navigation li a:visited {
+  color: #545454;
+}
+
+.main-navigation li a:hover {
+  text-decoration: underline;
+}
+
 .slider h1 {
   font-family: StRydeRegular, sans-serif;
 }
 
 .slider p {
   font-family: StRydeRegular, sans-serif;
+}
+
+.text-main p {
+  font-family: Segoe UI Italic, sans-serif;
+}
+
+.content .text h3 {
+  font-family: Segoe UI Regular, sans-serif;
+  font-weight: bold;
+}
+
+.content .text p {
+  font-family: Segoe UI Regular, sans-serif;
 }

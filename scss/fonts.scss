@@ -1,10 +1,63 @@
 $font-famaly-slider: StRydeRegular, sans-serif;
+$font-famaly-main: Segoe UI Italic, sans-serif;
+$font-famaly-nav: Segoe UI Regular, sans-serif;
+$font-famaly-logo: SamoSans Regular, sans-serif;
 
+.main-header{
+  .main-logo{
+    span{
+      cursor: default;
+    }
+    .m-logo{
+      font-size: 29px;
+      font-family: Amaranth Regular, sans-serif;
+    }
+    .text-logo{
+      padding-left: 15px;
+      font-family: $font-famaly-logo;
+      font-size: 39px;
+      color: #a292b3;
+
+    }
+  }
+}
+.main-navigation{
+  li{
+    font-family: $font-famaly-nav;
+    a:link{
+      text-decoration: none;
+      color: #545454;
+    }
+    a:visited{
+      color: #545454;
+    }
+    a:hover{
+      text-decoration: underline;
+    }
+  }
+}
 .slider{
   h1{
     font-family: $font-famaly-slider;
   }
   p{
     font-family: $font-famaly-slider;
+  }
+}
+
+.text-main{
+  p{
+    font-family: $font-famaly-main;
+  }
+}
+.content{
+  .text{
+    h3{
+      font-family: $font-famaly-nav;
+      font-weight: bold;
+    }
+    p{
+      font-family: $font-famaly-nav;
+    }
   }
 }

@@ -9,13 +9,19 @@
 }
 .main-header{
   // навигация
+  text-align: right;
   .main-navigation{
+    min-height: 130px;
     li{
       display: inline-block;
       font-size: 19px;
       padding-left: 92px;
       padding-top: 28px;
     }
+  }
+
+  .all-header{
+    height: 83px;
   }
   // лого
   .main-logo{
@@ -43,23 +49,73 @@
   .slider-text{
     width: 612px;
     position: absolute;
-    top: 100px;
-    left: 220px;
+    top: 60px;
+    left: 200px;
 
     text-align: center;
+
     h1{
+      font-weight: lighter;
+      text-shadow: -4px 3px #6d6560;
+      color: white;
       font-size: 117px;
     }
     p{
+      color: white;
       font-size: 31px;
+      text-shadow: -1px 1px #6d6560;
+      font-weight: lighter;
     }
   }
-}
+  .btns{
+    position: absolute;
+    top: 40%;
+    width: 1017px;
+
+    }
+    .btn-left{
+      background-image: url(../img/btn-L.png);
+      float: left;
+      min-height: 65px;
+      width: 35px;
+      background-color: #82699d;
+      cursor: pointer;
+      background-position: center center;
+      background-repeat: no-repeat;
+    }
+    .btn-right{
+      background-image: url(../img/btn-r.png);
+      float: right;
+      min-height: 65px;
+      width: 35px;
+      background-color: #82699d;
+      cursor: pointer;
+      background-position: center, center;
+      background-repeat: no-repeat;
+    }
+  }
+
 
 main{
-  .text-main{
-    height: 132px;
+
+  .main-content{
+
+    .text-main{
+
+      p{
+        vertical-align: middle;
+        text-align: center;
+        font-style: italic;
+        font-size: 23px;
+        line-height: 36px;
+      }
+      .em-bold{
+        font-weight: bold;
+        color: #82699d;
+      }
+    }
   }
+
 }
 
 .content{
@@ -72,13 +128,15 @@ main{
 }
 
 .partners{
+  background-color: #e5e5e5;
   .partners-link{
     width: 251px;
     min-height: 70px;
     display: inline-block;
     vertical-align: middle;
+    text-align: center;
   }
-  .part-lnk{
+  .part-lnk1{
     
   }
 }
