@@ -121,15 +121,17 @@ main .main-content .text-main .em-bold {
 }
 
 .partners {
-  background-color: #e5e5e5;
+  border-collapse: collapse;
+  background: #e5e5e5;
+  width: 1020px;
+  margin-top: 41px;
+  margin-bottom: 60px;
+  min-height: 70px;
 }
 
-.partners .partners-link {
-  width: 251px;
-  min-height: 70px;
-  display: inline-block;
-  vertical-align: middle;
+.partners td {
   text-align: center;
+  border: 2px solid #dddddd;
 }
 
 footer {

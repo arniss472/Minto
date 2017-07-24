@@ -128,18 +128,19 @@ main{
 }
 
 .partners{
-  background-color: #e5e5e5;
-  .partners-link{
-    width: 251px;
-    min-height: 70px;
-    display: inline-block;
-    vertical-align: middle;
+  border-collapse: collapse;
+  background: #e5e5e5;
+  width: 1020px;
+  margin-top: 41px;
+  margin-bottom: 60px;
+  min-height: 70px;
+  td{
     text-align: center;
+    border: 2px solid #dddddd;
   }
-  .part-lnk1{
-    
+
+
   }
-}
 
 footer{
   min-height: 74.5px;
